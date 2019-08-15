@@ -1,0 +1,6 @@
+#LWP-Cookies-2.0
+Set-Cookie3: as="\"https://www.douban.com/\""; path="/"; domain=".douban.com"; path_spec; domain_dot; expires="2019-03-30 02:24:26Z"; version=0
+Set-Cookie3: bid=wPl8JKyG81E; path="/"; domain=".douban.com"; path_spec; domain_dot; expires="2020-03-27 18:22:02Z"; version=0
+Set-Cookie3: mafengwo="fc65501dfb7cb7b1e335377d98252e99_63280520_5c9d0f03c2b012.98569467_5c9d0f03c2b048.13641791"; path="/"; domain=".mafengwo.cn"; path_spec; domain_dot; expires="2019-06-25 18:13:51Z"; httponly=None; version=0
+Set-Cookie3: mfw_uuid="5c9d0f03-c9ee-f7bf-0f5c-009c99128f7d"; path="/"; domain=".mafengwo.cn"; path_spec; domain_dot; expires="2020-03-27 18:13:51Z"; version=0
+Set-Cookie3: oad_n="a%3A3%3A%7Bs%3A3%3A%22oid%22%3Bi%3A1029%3Bs%3A2%3A%22dm%22%3Bs%3A20%3A%22passport.mafengwo.cn%22%3Bs%3A2%3A%22ft%22%3Bs%3A19%3A%222019-03-29+02%3A14%3A27%22%3B%7D"; path="/"; domain=".mafengwo.cn"; path_spec; domain_dot; expires="2019-04-04 18:13:51Z"; version=0

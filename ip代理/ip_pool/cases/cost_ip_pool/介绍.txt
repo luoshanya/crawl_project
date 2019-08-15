@@ -1,0 +1,19 @@
+市面上的代理ip提供商：
+快代理
+太阳代理
+
+3段脚本
+2个代理池
+
+脚本1：通过接口提取代理，将代理放入到代理池1中
+脚本2：检测代理池1中的ip和port，将测试成功的放入代理池2
+脚本3：检测代理池2中的ip和port，删除失败的
+
+
+定时任务：
+crontab
+
+一些例子：
+# 30 21 * * * /etc/init.d/smb restart
+
+*/10 * * * * sh /Users/seancheney/Documents/kkb_python/ip_pool/cases/cost_ip_pool/kuaidaili/kuaidaili.sh

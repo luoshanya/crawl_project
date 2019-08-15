@@ -1,0 +1,3 @@
+/Users/seancheney/phantomjs/venv/bin/python3 /Users/seancheney/Documents/kkb_python/ip_pool/cases/cost_ip_pool/kuaidaili/ip_fill.py
+/Users/seancheney/phantomjs/venv/bin/python3 /Users/seancheney/Documents/kkb_python/ip_pool/cases/cost_ip_pool/kuaidaili/ip_pool_test.py
+/Users/seancheney/phantomjs/venv/bin/python3 /Users/seancheney/Documents/kkb_python/ip_pool/cases/cost_ip_pool/kuaidaili/ip_quality_check.py
