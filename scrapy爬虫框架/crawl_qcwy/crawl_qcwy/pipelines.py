@@ -8,7 +8,7 @@ from scrapy.exporters import JsonLinesItemExporter,CsvItemExporter
 
 class CrawlQcwyPipeline_json(object):
     def __init__(self):
-        self.json_file = open('软件测试_job.json','wb')
+        self.json_file = open('python_job.json','wb')
         self.exporter = JsonLinesItemExporter(self.json_file,ensure_ascii=False)
 
     def process_item(self, item, spider):
@@ -20,12 +20,12 @@ class CrawlQcwyPipeline_json(object):
 
 class CrawlQcwyPipeline_csv(object):
     def __init__(self):
-        self.csv_file = open('软件测试_job.csv','wb')
+        self.csv_file = open('python_job.csv','wb')
         self.exporter = CsvItemExporter(self.csv_file,fields_to_export=['job_name','salary','education','work_experience','keyword'
                                     ,'job_name_url','company','city_district',
                                  'employ_data','introduced_time',
                                  'work_describe','work_type','company_address',
-                                 'company_message','company_welfare'])
+                                 'company_message','company_welfare'], encoding='utf-8-sig')
 
     def process_item(self,item,spider):
         self.exporter.export_item(item)

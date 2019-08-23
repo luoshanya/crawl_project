@@ -8,7 +8,7 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
+FEED_EXPORT_ENCODING = 'gb18030'
 BOT_NAME = 'crawl_qcwy'
 
 SPIDER_MODULES = ['crawl_qcwy.spiders']

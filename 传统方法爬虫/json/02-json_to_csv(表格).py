@@ -2,9 +2,9 @@ import json
 import csv
 
 #1.打开json文件 创建一个CSV文件
-open_json_data = open('02json.json','r')
+open_json_data = open('软件测试_job.json','r', encoding='utf-8')
 #格式不对utf-8,pycharm里面可以看到内容，但是如果在Windows系统上看表格就会乱码，不写结果则反过来
-create_csv = open('03csv.csv','w')
+create_csv = open('java_job.csv','w')
 
 
 #2.读取文件内容，将内容转换列表
